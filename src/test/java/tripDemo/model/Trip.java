@@ -1,6 +1,6 @@
-package tripDemo.model.homework;
-import lombok.*;
-import tripDemo.model.Passenger;
+package tripDemo.model;
+
+import lombok.Data;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,5 +14,7 @@ public class Trip {
     private String townTo;
     private String timeOut;
     private String timeIn;
-    private final List<Passenger> passengerList = new ArrayList<>();
+    private List<Passenger> passengerList = new ArrayList<>();
+
+
 }
